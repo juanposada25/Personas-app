@@ -40,7 +40,10 @@
               </form>
                 </td>
             </tr>
+            
     @endforeach
+
+    <!--footer-->
   </tbody>
 </table>
     </div>
