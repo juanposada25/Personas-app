@@ -12,6 +12,24 @@
     <title>Listado de $paises</title>
   </head>
   <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MiSitio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/comunas">Comunas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/departamentos">Departamentos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/municipios">Municipios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/paises">Paises</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
   <div class="container">
     <h1>Country List</h1>
 
@@ -46,6 +64,12 @@
         </tbody>
     </table>
 </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <p class="mb-0">&copy; 2025 MiSitio. Todos los derechos reservados.</p>
+    </footer>
 
 
     <!-- Optional JavaScript; choose one of the two! -->

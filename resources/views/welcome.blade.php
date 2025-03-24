@@ -19,7 +19,9 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="/comunas">Comunas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/departamentos">Departamentos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/municipios">Municipios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/paises">Paises</a></li>
                 </ul>
             </div>
         </div>
