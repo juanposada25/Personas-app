@@ -33,13 +33,13 @@
                     <td>{{ $pais->pais_capi }}</td>
                     <td><!--
                         <a href="{{ route('paises.edit', ['pais' => $pais->pais_codi]) }}"
-                           class="btn btn-info">Edit</a>
+                           class="btn btn-info">Edit</a>-->
                         <form action="{{ route('paises.destroy', ['pais' => $pais->pais_codi]) }}" 
                               method="POST" style="display: inline-block">
                             @method('delete')
                             @csrf
                             <input class="btn btn-danger" type="submit" value="Delete">
-                        </form>-->
+                        </form>
                     </td>
                 </tr>
             @endforeach
